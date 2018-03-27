@@ -1,5 +1,7 @@
 depuis tensorflow/models/research/ 
 
+Pour le training
 python object_detection/train.py --logtostderr --pipeline_config_path=<PATH_TO_FOLDER>/tptHandMouse/models/model/ssd_mobilenet_v1_pets.config --train_dir=<PATH_TO_FOLDER>/tptHandMouse/models/model/train
 
+Pour l'export du model en frozen model
 python object_detection/export_inference_graph.py --input_type image_tensor --pipeline_config_path <PATH_TO_FOLDER>/tptHandMouse/models/model/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix <PATH_TO_FOLDER>/tptHandMouse/models/model/train/model.ckpt-43431 --output_directory /home/juingong/Documents/tptHandMouse/models/model/hands_inference_graph

@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43431"
+all_model_checkpoint_paths: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43190"
+all_model_checkpoint_paths: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43252"
+all_model_checkpoint_paths: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43313"
+all_model_checkpoint_paths: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43373"
+all_model_checkpoint_paths: "/home/juingong/Documents/tptHandMouse/models/model/train/model.ckpt-43431"
